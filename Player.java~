@@ -29,7 +29,7 @@ public class Player extends CharacterTmp {
         System.out.printf("%sは%1.0fのダメージを受けた！%n%n", name, damage);
         if (hp <= 0) {
             isLive = false;
-            System.out.printf("%sはしんでしまった！%n%n", name);
+            System.out.printf("%sは死んでしまった！%n%n", name);
         }
     }
 }
